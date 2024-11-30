@@ -1,0 +1,59 @@
+//mainheader
+#mainheader {
+    .navbar {
+        .logo {
+            padding-top: 2rem;
+            display: block;
+            text-align: center;
+            margin: 0 auto;
+        }
+        ul {
+            display: block;
+            li {
+                text-align: center;
+                margin-bottom: 1rem;
+            }
+        }
+        .container {
+            display: block;
+        }
+    }
+}
+
+//mywork
+#mywork {
+    width: 100%;
+    .mywork-row {
+        display: block;
+    }
+}
+
+//about 
+#about {
+    .about-row {
+        display: block;
+        img {
+            width: 100%;
+        }
+        h3 {
+            text-align: center;
+        }
+        p {
+            text-align: justify;
+        }
+        .union {
+            display: none;
+        }
+    }
+}
+
+//contact
+#contact {
+    .contact-row {
+        display: block;
+        text-align: center;
+        img {
+            margin: 2rem 0;
+        }
+    }
+}
