@@ -151,6 +151,11 @@ ul {
   text-align: center;
   width: 150px;
   margin: 0 auto;
+  border-radius: 5px;
+}
+#mywork .mywork-row .flex-box-1 h3 {
+  text-align: center;
+  margin: 1rem 0;
 }
 
 #about {
