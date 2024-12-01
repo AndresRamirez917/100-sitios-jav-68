@@ -2,8 +2,9 @@ async function getData() {
     const result = await fetch('https://thecocktaildb.com/api/json/v1/1/search.php?s=margarita')
     const coctail = await result.json();
     console.log(coctail);
-    const randomDrinks = coctail.drinks.sort(()=>0.5 - Math.random()).slice(0,6)
-    coctail.drinks.forEach(element => {
+    const randomDrinks = coctail.drinks.sort(() => 0.5 - Math.random()).slice(0,6)
+    //No hay necesidad de hacer el random por que la API lo hace, se uso solo por fun 😋
+    randomDrinks.forEach(element => {
         const box = document.createRange().createContextualFragment(`
             
                 <div class="flex-box-1 box-1">
