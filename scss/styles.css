@@ -138,9 +138,23 @@ ul {
   margin: 3rem 0;
 }
 #mywork .mywork-row {
-  display: flex;
   margin-bottom: 20px;
   gap: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+#mywork .mywork-row .flex-box-1 {
+  width: 25%;
+  margin: 0 auto;
+}
+#mywork .mywork-row .flex-box-1 img {
+  text-align: center;
+  width: 150px;
+  margin: 0 auto;
+}
+#mywork .mywork-row .flex-box-1 .box-1 {
+  margin: 0 auto;
+  text-align: center;
 }
 
 #about {
