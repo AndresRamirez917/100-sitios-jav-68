@@ -21,6 +21,13 @@
 #mywork .mywork-row {
   display: block;
 }
+#mywork .mywork-row .flex-box-1 {
+  width: 100%;
+  margin-bottom: 10px;
+}
+#mywork .mywork-row .flex-box-1 img {
+  width: 100%;
+}
 
 #about .about-row {
   display: block;

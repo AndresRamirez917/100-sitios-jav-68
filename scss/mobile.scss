@@ -25,6 +25,13 @@
     width: 100%;
     .mywork-row {
         display: block;
+        .flex-box-1 {
+            width: 100%;
+            margin-bottom: 10px;
+            img {
+                width: 100%;
+            }
+        }
     }
 }
 
